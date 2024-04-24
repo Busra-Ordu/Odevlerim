@@ -20,18 +20,53 @@ a{
     height: 60px;
 }
 .sag img{
-    padding: 10px;
+    padding: 5px;
 }
 .sol img{
-    padding: 10px;
+    padding: 5px;
 }
 
 .hero{
     background-color: pink;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
+.content{
+    padding: 24px;
+    h4{
+        color: #FF7E1B;
+        font-family: Kumbh Sans;
+        font-size: 12px;
+        line-height: 14.88px;
+        letter-spacing: 1.8461538553237915px;
+        text-align: left;
+    }
+    h1{
+        font-family: Kumbh Sans;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+    }
+    p{
+        font-family: Kumbh Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        color: #69707D;
+    }
+}
+.hesapla{
+    width: 326px;
+    height: 34px;
+    background-color: #FF7E1B;
+}
+.menu{
+    display: none;
+}
 /* tablet */
 /* @media (width >= 768px){
     
