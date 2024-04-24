@@ -28,6 +28,8 @@ a{
 
 .hero{
     background-color: pink;
+    display: flex;
+    justify-content: center;
 }
 
 /* tablet */
